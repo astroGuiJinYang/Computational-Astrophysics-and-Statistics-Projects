@@ -132,7 +132,7 @@ computational-astrophysics-projects/
 ```
 The `src/` directories contain the numerical implementations, while `plots/` contains scripts used to analyze the simulation output and generate the figures shown in the reports.
 
-### Contribution Statement
+## Contribution Statement
 These projects were completed jointly by Jintong Wang and Jiya Yao.
 
 For both projects, the two authors independently worked through the full set of numerical tasks and subsequently cross checked the implementations and numerical results.
