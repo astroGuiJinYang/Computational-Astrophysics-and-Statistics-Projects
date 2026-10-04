@@ -10,7 +10,7 @@ The repository contains the final reports, numerical codes, and plotting scripts
 
 ### Project 1: Hydrostatic Equilibrium and Turbulent Metal Diffusion in Galaxy Clusters
 
-**Report:** [Project1_Wang.pdf](./Project1_Wang.pdf)
+**Report:** [Project1_Wang.pdf](./project1/Project1_Wang.pdf)
 
 This project investigates the structure and chemical evolution of the intracluster medium in a galaxy cluster.
 
@@ -47,7 +47,7 @@ The results illustrate the competition between central metal injection and outwa
 
 ### Project 2: One Dimensional ZEUS Hydrodynamics and Cluster Cooling Flows
 
-**Report:** [Project2_Wang.pdf](./Project2_Wang.pdf)
+**Report:** [Project2_Wang.pdf](./project2/Project2_Wang.pdf)
 
 This project develops a one dimensional hydrodynamical solver based on the numerical framework of the ZEUS code described by **[Stone & Norman (1992)](https://ui.adsabs.harvard.edu/abs/1992ApJS...80..753S)**.
 
@@ -118,21 +118,19 @@ computational-astrophysics-projects/
 │
 ├── README.md
 │
-├── project1_icm_diffusion/
-│   ├── README.md
+├── project1/
 │   ├── Project1_Wang.pdf
 │   ├── src/
-│   ├── plotting/
-│   └── figures/
+│   ├── plots/
+│   └── output/
 │
 └── project2_zeus_hydrodynamics/
-    ├── README.md
     ├── Project2_Wang.pdf
     ├── src/
-    ├── plotting/
-    └── figures/
+    ├── plots/
+    └── output/
 ```
-The `src/` directories contain the numerical implementations, while `plotting/` contains scripts used to analyze the simulation output and generate the figures shown in the reports.
+The `src/` directories contain the numerical implementations, while `plots/` contains scripts used to analyze the simulation output and generate the figures shown in the reports.
 
 ### Contribution Statement
 These projects were completed jointly by Jintong Wang and Jiya Yao.
